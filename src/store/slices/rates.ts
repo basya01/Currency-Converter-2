@@ -7,7 +7,7 @@ export enum Status {
   ERROR = 'error',
 }
 
-type Rates = Record<string, number>;
+export type Rates = Record<string, number>;
 
 export interface RatesData {
   table: string;

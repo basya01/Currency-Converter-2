@@ -1,3 +1,12 @@
+@import '../../../variables.scss';
+
 .root {
-  background: blue;
+  border: none;
+  outline: none;
+  color: $blue;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Open Sans', sans-serif;
+  padding: 10px 25px;
+  background: $grey;
 }

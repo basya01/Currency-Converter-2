@@ -1,0 +1,12 @@
+@import '../../variables.scss';
+
+.root {
+  display: inline-block;
+  border-radius: 20px;
+  padding: 30px;
+  background: $dark-grey;
+}
+
+.input {
+  margin-top: 10px;
+}

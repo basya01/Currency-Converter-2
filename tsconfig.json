@@ -22,5 +22,5 @@
   },
   "include": [
     "src"
-  ]
+, "src/react-app-env.d.tsd.tssrc/react-app-env.d.tsenv.d.ts"  ]
 }

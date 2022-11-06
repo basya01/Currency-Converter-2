@@ -1,0 +1,44 @@
+@import '../../../variables.scss';
+
+.button {
+  background: none;
+  border: 2px solid $yellow;
+  color: $yellow;
+  font-weight: 700;
+  font-size: 15px;
+  padding: 5px 15px;
+  cursor: pointer;
+}
+
+.input {
+  width: 110px;
+  background: $blue;
+  border: none;
+  outline: none;
+  background: $yellow;
+  color: $dark-grey;
+  padding: 5px 10px;
+}
+
+.optionsBlock {
+  position: absolute;
+}
+
+.options {
+  width: 130px;
+  background: $yellow;
+  overflow: auto;
+  max-height: 200px;
+  text-align: center;
+}
+
+.option {
+  cursor: pointer;
+  padding: 5px;
+  color: $grey;
+}
+
+.option:hover {
+  background: $dark-grey;
+  color: $yellow;
+}

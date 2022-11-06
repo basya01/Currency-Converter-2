@@ -8,7 +8,7 @@ interface InputProps extends InputHTMLAttributes<HTMLInputElement> {}
 export const Input: React.FC<InputProps> = ({ className, ...props }) => {
   return (
     <input
-      type="text"
+      type="number"
       {...props}
       className={clsx(styles.root, className && className)}
     />
