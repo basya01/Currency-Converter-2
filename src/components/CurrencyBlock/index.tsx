@@ -32,7 +32,7 @@ export const CurrencyBlock: React.FC<CurrencyBlockProps> = ({
         className={styles.input}
         value={value}
         onChange={(e: ChangeEvent<HTMLInputElement>) => {
-          onChangeValue(String(+e.target.value));
+          onChangeValue(e.target.value);
         }}
       />
     </div>
